@@ -2,9 +2,6 @@ html {
     background-color: rgb(237, 218, 201);
 }
 
-h1 {
-}
-
 .top_row {
     display: flex;
     justify-content: space-between;
@@ -15,12 +12,28 @@ h1 {
         width: 5%;
         height: 5%;
     }
+
+    button {
+      width: 110px;
+      border-radius: 10px;
+      background-color: rgb(237, 218, 201);
+      border-color: rgb(33, 19, 1);
+      cursor: pointer;
+    }
+
+    .egg-button {
+      width: auto;
+    }
+
+    button:hover {
+      background-color: rgb(213, 195, 180);
+    }
 }
 
 .right {
     display: flex;
     /* align-items: flex-end; */
-    gap: 40px;
+    gap: 80px;
 }
 
 .material-symbols-outlined {
@@ -31,6 +44,10 @@ h1 {
   'opsz' 24
 }
 
+.egg {
+  font-size: 50px;
+}
+
 /* Container styling */
 header {
   position: relative;
@@ -39,9 +56,22 @@ header {
 
   h1 {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    opacity: 1;
+    font-size: 70px;
+  }
+
+  .highlight {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    background-color: rgba(36, 20, 2, .7);
+    /* opacity: 0.3; */
+    top: 8%;
+    left: 3%;
   }
 }
 
@@ -49,4 +79,10 @@ header {
 .banner-content {
   color: #ffffff;
   /* padding: 0 20px; */
+  /* width: 100%; */
+}
+
+.banner-image {
+  width: 100%;
+  height: 600px;
 }
