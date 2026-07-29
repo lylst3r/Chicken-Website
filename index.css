@@ -6,7 +6,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 10px 50px;
 
     img {
         width: 5%;
@@ -86,3 +86,65 @@ header {
   width: 100%;
   height: 600px;
 }
+
+h3 {
+  font-size: 30pt;
+  text-align: center;
+}
+
+.square-photo {
+  width: 350px;
+  height: 350px;
+}
+
+.current-chicken-pictures, .passed-chicken-pictures {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.info {
+  background-color: rgb(43, 23, 5);
+  width: 350px;
+  height: 400px;
+  color: rgb(237, 218, 201);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.info:hover {
+    background-color: rgb(92, 50, 12);
+  }
+
+  footer {
+    display: flex;
+    margin-top: 100px;
+    background-color: rgb(43, 23, 5);
+    height: 170px;
+    color: rgb(237, 218, 201);
+
+    .socials {
+      margin: 0px 10px;
+    }
+
+    .middle {
+      margin-left: auto;
+      margin-top: 50px;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      font-size: 16pt;
+    }
+
+    .right {
+      justify-content: right;
+      text-align: right;
+      align-items: right;
+      margin-left: auto;
+      margin-right: 10px;
+    }
+  }
